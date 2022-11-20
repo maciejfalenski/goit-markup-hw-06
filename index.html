@@ -87,6 +87,54 @@
         </div>
         <div class="backdrop is-hidden" data-modal>
           <div class="modal">
+            <p>Zostaw swoje dane w formularzu poniżej</p>
+            <form class="modal-form">
+              <fieldset class="name-fildset">
+                <label class="label" for="name">Imie</label>
+                <svg class="form-icon">
+                  <use href="./images/icons.svg#user-icon"></use>
+                </svg>
+                <input class="form-input" type="text" id="name" name="name" />
+              </fieldset>
+
+              <fieldset class="name-fildset">
+                <label class="label" for="phone">Telefon</label>
+                <svg class="form-icon">
+                  <use href="./images/icons.svg#phone-icon"></use>
+                </svg>
+                <input class="form-input" type="tel" id="phone" name="phone" />
+              </fieldset>
+
+              <fieldset class="name-fildset">
+                <label class="label" for="email">Email</label>
+                <svg class="form-icon">
+                  <use href="./images/icons.svg#mail-icon"></use>
+                </svg>
+                <input class="form-input" type="email" id="mail" name="mail" />
+              </fieldset>
+
+              <fieldset class="name-fildset">
+                <label class="label" for="coment">Komentarz</label>
+
+                <input
+                  placeholder="Wprowadź tekst"
+                  class="form-input-coment"
+                  type="text"
+                  id="coment"
+                  name="coment"
+                />
+              </fieldset>
+              <label class="form-legal-checkbox">
+                <input type="checkbox" id="legal" name="legal" />
+                <span class="form-legal-text"
+                  >Oświadczam iż akceptuję
+                  <a href="#terms-and-conditions">Regulamin</a> i
+                  <a href="#privacy-policy">Politykę Prywatności.</a></span
+                >
+                <span class="checkmark"></span>
+              </label>
+              <button class="form-submit-button" type="submit">Wyślij</button>
+            </form>
             <button class="modal-button" data-modal-close>
               <span>X</span>
             </button>
@@ -459,6 +507,23 @@
                 </div>
               </li>
             </ul>
+          </div>
+
+          <div class="footer-newsletter">
+            <p class="footer-newsletter-title">Zapisz się do newslettera</p>
+
+            <input
+              class="footer-newsletter-input"
+              type="email"
+              name="submit-mail"
+              placeholder="E-mail"
+            />
+            <button class="footer-newsletter-button" type="submit">
+              Zapisz się
+              <svg class="footer-newsletter-icon" width="24" height="24">
+                <use href="./images/icons.svg#newsletter-send-icon"></use>
+              </svg>
+            </button>
           </div>
         </div>
       </div>
