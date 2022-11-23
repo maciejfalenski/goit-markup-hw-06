@@ -672,6 +672,7 @@ p {
 .form-input {
   border: 0px;
   background-color: transparent;
+  width: 100%;
 }
 
 .name-fildset:nth-of-type(4) {
